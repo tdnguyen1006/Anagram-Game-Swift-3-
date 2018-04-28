@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1866506D206018F60092BDCE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866506C206018F60092BDCE /* AppDelegate.swift */; };
+		1866506F206018F60092BDCE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866506E206018F60092BDCE /* ViewController.swift */; };
+		18665072206018F60092BDCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18665070206018F60092BDCE /* Main.storyboard */; };
+		18665074206018F60092BDCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18665073206018F60092BDCE /* Assets.xcassets */; };
+		18665077206018F60092BDCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18665075206018F60092BDCE /* LaunchScreen.storyboard */; };
+		18665082206018F60092BDCE /* ANAGRAM_GROUP8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18665081206018F60092BDCE /* ANAGRAM_GROUP8Tests.swift */; };
+		1866508D206018F60092BDCE /* ANAGRAM_GROUP8UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1866508C206018F60092BDCE /* ANAGRAM_GROUP8UITests.swift */; };
+		187EF400208E3C2A0054487C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187EF3FF208E3C2A0054487C /* HomeViewController.swift */; };
+		18C531E62086602600B031E9 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C531E52086602600B031E9 /* DBManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1866507E206018F60092BDCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18665061206018F60092BDCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18665068206018F60092BDCE;
+			remoteInfo = "ANAGRAM-GROUP8";
+		};
+		18665089206018F60092BDCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18665061206018F60092BDCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18665068206018F60092BDCE;
+			remoteInfo = "ANAGRAM-GROUP8";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18665069206018F60092BDCE /* ANAGRAM-GROUP8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ANAGRAM-GROUP8.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1866506C206018F60092BDCE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1866506E206018F60092BDCE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18665071206018F60092BDCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18665073206018F60092BDCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18665076206018F60092BDCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18665078206018F60092BDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1866507D206018F60092BDCE /* ANAGRAM-GROUP8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ANAGRAM-GROUP8Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18665081206018F60092BDCE /* ANAGRAM_GROUP8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANAGRAM_GROUP8Tests.swift; sourceTree = "<group>"; };
+		18665083206018F60092BDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18665088206018F60092BDCE /* ANAGRAM-GROUP8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ANAGRAM-GROUP8UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1866508C206018F60092BDCE /* ANAGRAM_GROUP8UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ANAGRAM_GROUP8UITests.swift; sourceTree = "<group>"; };
+		1866508E206018F60092BDCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187EF3FF208E3C2A0054487C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		18C531E52086602600B031E9 /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18665066206018F60092BDCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1866507A206018F60092BDCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18665085206018F60092BDCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18665060206018F60092BDCE = {
+			isa = PBXGroup;
+			children = (
+				1866506B206018F60092BDCE /* ANAGRAM-GROUP8 */,
+				18665080206018F60092BDCE /* ANAGRAM-GROUP8Tests */,
+				1866508B206018F60092BDCE /* ANAGRAM-GROUP8UITests */,
+				1866506A206018F60092BDCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1866506A206018F60092BDCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18665069206018F60092BDCE /* ANAGRAM-GROUP8.app */,
+				1866507D206018F60092BDCE /* ANAGRAM-GROUP8Tests.xctest */,
+				18665088206018F60092BDCE /* ANAGRAM-GROUP8UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1866506B206018F60092BDCE /* ANAGRAM-GROUP8 */ = {
+			isa = PBXGroup;
+			children = (
+				1866506C206018F60092BDCE /* AppDelegate.swift */,
+				1866506E206018F60092BDCE /* ViewController.swift */,
+				18665070206018F60092BDCE /* Main.storyboard */,
+				18665073206018F60092BDCE /* Assets.xcassets */,
+				18665075206018F60092BDCE /* LaunchScreen.storyboard */,
+				18665078206018F60092BDCE /* Info.plist */,
+				18C531E52086602600B031E9 /* DBManager.swift */,
+				187EF3FF208E3C2A0054487C /* HomeViewController.swift */,
+			);
+			path = "ANAGRAM-GROUP8";
+			sourceTree = "<group>";
+		};
+		18665080206018F60092BDCE /* ANAGRAM-GROUP8Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18665081206018F60092BDCE /* ANAGRAM_GROUP8Tests.swift */,
+				18665083206018F60092BDCE /* Info.plist */,
+			);
+			path = "ANAGRAM-GROUP8Tests";
+			sourceTree = "<group>";
+		};
+		1866508B206018F60092BDCE /* ANAGRAM-GROUP8UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1866508C206018F60092BDCE /* ANAGRAM_GROUP8UITests.swift */,
+				1866508E206018F60092BDCE /* Info.plist */,
+			);
+			path = "ANAGRAM-GROUP8UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18665068206018F60092BDCE /* ANAGRAM-GROUP8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18665091206018F60092BDCE /* Build configuration list for PBXNativeTarget "ANAGRAM-GROUP8" */;
+			buildPhases = (
+				18665065206018F60092BDCE /* Sources */,
+				18665066206018F60092BDCE /* Frameworks */,
+				18665067206018F60092BDCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ANAGRAM-GROUP8";
+			productName = "ANAGRAM-GROUP8";
+			productReference = 18665069206018F60092BDCE /* ANAGRAM-GROUP8.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1866507C206018F60092BDCE /* ANAGRAM-GROUP8Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18665094206018F60092BDCE /* Build configuration list for PBXNativeTarget "ANAGRAM-GROUP8Tests" */;
+			buildPhases = (
+				18665079206018F60092BDCE /* Sources */,
+				1866507A206018F60092BDCE /* Frameworks */,
+				1866507B206018F60092BDCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1866507F206018F60092BDCE /* PBXTargetDependency */,
+			);
+			name = "ANAGRAM-GROUP8Tests";
+			productName = "ANAGRAM-GROUP8Tests";
+			productReference = 1866507D206018F60092BDCE /* ANAGRAM-GROUP8Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		18665087206018F60092BDCE /* ANAGRAM-GROUP8UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18665097206018F60092BDCE /* Build configuration list for PBXNativeTarget "ANAGRAM-GROUP8UITests" */;
+			buildPhases = (
+				18665084206018F60092BDCE /* Sources */,
+				18665085206018F60092BDCE /* Frameworks */,
+				18665086206018F60092BDCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1866508A206018F60092BDCE /* PBXTargetDependency */,
+			);
+			name = "ANAGRAM-GROUP8UITests";
+			productName = "ANAGRAM-GROUP8UITests";
+			productReference = 18665088206018F60092BDCE /* ANAGRAM-GROUP8UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18665061206018F60092BDCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Tech;
+				TargetAttributes = {
+					18665068206018F60092BDCE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1866507C206018F60092BDCE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18665068206018F60092BDCE;
+					};
+					18665087206018F60092BDCE = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 18665068206018F60092BDCE;
+					};
+				};
+			};
+			buildConfigurationList = 18665064206018F60092BDCE /* Build configuration list for PBXProject "ANAGRAM-GROUP8" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18665060206018F60092BDCE;
+			productRefGroup = 1866506A206018F60092BDCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18665068206018F60092BDCE /* ANAGRAM-GROUP8 */,
+				1866507C206018F60092BDCE /* ANAGRAM-GROUP8Tests */,
+				18665087206018F60092BDCE /* ANAGRAM-GROUP8UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18665067206018F60092BDCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18665077206018F60092BDCE /* LaunchScreen.storyboard in Resources */,
+				18665074206018F60092BDCE /* Assets.xcassets in Resources */,
+				18665072206018F60092BDCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1866507B206018F60092BDCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18665086206018F60092BDCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18665065206018F60092BDCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1866506F206018F60092BDCE /* ViewController.swift in Sources */,
+				18C531E62086602600B031E9 /* DBManager.swift in Sources */,
+				1866506D206018F60092BDCE /* AppDelegate.swift in Sources */,
+				187EF400208E3C2A0054487C /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18665079206018F60092BDCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18665082206018F60092BDCE /* ANAGRAM_GROUP8Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18665084206018F60092BDCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1866508D206018F60092BDCE /* ANAGRAM_GROUP8UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1866507F206018F60092BDCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18665068206018F60092BDCE /* ANAGRAM-GROUP8 */;
+			targetProxy = 1866507E206018F60092BDCE /* PBXContainerItemProxy */;
+		};
+		1866508A206018F60092BDCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18665068206018F60092BDCE /* ANAGRAM-GROUP8 */;
+			targetProxy = 18665089206018F60092BDCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18665070206018F60092BDCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18665071206018F60092BDCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18665075206018F60092BDCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18665076206018F60092BDCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1866508F206018F60092BDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		18665090206018F60092BDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18665092206018F60092BDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ANAGRAM-GROUP8/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gbc.iosdev.ANAGRAM-GROUP8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18665093206018F60092BDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ANAGRAM-GROUP8/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gbc.iosdev.ANAGRAM-GROUP8";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		18665095206018F60092BDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ANAGRAM-GROUP8Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gbc.iosdev.ANAGRAM-GROUP8Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ANAGRAM-GROUP8.app/ANAGRAM-GROUP8";
+			};
+			name = Debug;
+		};
+		18665096206018F60092BDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ANAGRAM-GROUP8Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gbc.iosdev.ANAGRAM-GROUP8Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ANAGRAM-GROUP8.app/ANAGRAM-GROUP8";
+			};
+			name = Release;
+		};
+		18665098206018F60092BDCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ANAGRAM-GROUP8UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gbc.iosdev.ANAGRAM-GROUP8UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ANAGRAM-GROUP8";
+			};
+			name = Debug;
+		};
+		18665099206018F60092BDCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ANAGRAM-GROUP8UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gbc.iosdev.ANAGRAM-GROUP8UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ANAGRAM-GROUP8";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18665064206018F60092BDCE /* Build configuration list for PBXProject "ANAGRAM-GROUP8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1866508F206018F60092BDCE /* Debug */,
+				18665090206018F60092BDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18665091206018F60092BDCE /* Build configuration list for PBXNativeTarget "ANAGRAM-GROUP8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18665092206018F60092BDCE /* Debug */,
+				18665093206018F60092BDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18665094206018F60092BDCE /* Build configuration list for PBXNativeTarget "ANAGRAM-GROUP8Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18665095206018F60092BDCE /* Debug */,
+				18665096206018F60092BDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18665097206018F60092BDCE /* Build configuration list for PBXNativeTarget "ANAGRAM-GROUP8UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18665098206018F60092BDCE /* Debug */,
+				18665099206018F60092BDCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18665061206018F60092BDCE /* Project object */;
+}
